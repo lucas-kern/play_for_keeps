@@ -1,15 +1,15 @@
 import './App.css';
-import { Helmet } from 'react-helmet';
 import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navigationbar from './components/Navbar';
-import LoginForm from './components/LoginForm';
+import LoginForm from './components/LoginForm/LoginForm';
+import SEO from './components/SEO';
 
 function App() {
 	return (
 		<div className='App'>
-			<Helmet title='Playing For Keeps' />
+			<SEO title='Home' />
 
 			<Navigationbar />
 
