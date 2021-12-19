@@ -7,18 +7,17 @@ import Navigationbar from './components/Navbar';
 import LoginForm from './components/LoginForm';
 
 function App() {
-  return (
-    <div className="App">
-      <Helmet title="Playing For Keeps"/>
+	return (
+		<div className='App'>
+			<Helmet title='Playing For Keeps' />
 
-      <Navigationbar />
+			<Navigationbar />
 
-      <Routes>
-        <Route path='/login' element={<LoginForm />}/>
-      </Routes>
-
-    </div>
-  );
+			<Routes>
+				<Route path='/login' element={<LoginForm />} />
+			</Routes>
+		</div>
+	);
 }
 
 export default App;
