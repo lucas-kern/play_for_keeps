@@ -1,0 +1,17 @@
+.pageTitle {
+	margin: 42px;
+}
+
+.formDiv {
+	width: 88%;
+	margin: 0 auto;
+}
+
+#form {
+	text-align: left;
+}
+
+input {
+	width: 100%;
+	padding: 5px;
+}
